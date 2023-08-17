@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select e Seus Tipos</title>
+</head>
+<body>
+    <form name="signup" action="">
+        Nome: <input type="text" name="name"> <br>
+        <label>Cargo: </label>
+        <!--Essa tag Select cria uma select box, que serve para colocar valores já pré definidos, isso é útil quando o campo deve ser preenchido apenas por valores já definidos-->
+        <select name="role">
+            <option value="">Selecione o cargo</option>
+            <option value="Administrativo">Administrativo</option>
+            <option value="RH">RH</option>
+            <option value="Gerente de Marketing">Gerente de Marketing</option>
+        </select>
+        <br>
+        Senha: <input type="password" name="password"> <br><br>
+        <label>Mensagem</label>
+        <!--Essa tag textarea serve para adicionar textos mais longos e com uma box maior de acordo com sua necessidade-->
+        <textarea name="message" cols="30" rows="2"></textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
