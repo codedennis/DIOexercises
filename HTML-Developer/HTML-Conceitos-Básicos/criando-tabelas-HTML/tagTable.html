@@ -4,16 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tag table</title>
+    <style>
+        table tr:nth-child(even) {
+            background-color: aquamarine;
+        }
+        table tr:hover td {
+            background-color: darkgray;
+        }
+    </style>
 </head>
 <body>
     <!--Essa é uma estrutura básica de uma tabela e alguns de seus atributos-->
     <table border="1" width="250" cellspacing="5" cellpadding="10" align="center">
         <tr>
+            <!--Falando um pouco sobre a tag TR: ela significa table row e ela cria as colunas da tabela-->
             <td>Nome</td>
             <td>Idade</td>
         </tr>
-        <tr>
+        <tr id="1">
             <td>Dennis</td>
+            <td>23</td>
+        </tr>
+        <tr id="2">
+            <td>Diogo</td>
+            <td>23</td>
+        </tr>
+        <tr id="3">
+            <td>Daniel</td>
+            <td>23</td>
+        </tr>
+        <tr id="4">
+            <td>Gabriel</td>
+            <td>23</td>
+        </tr>
+        <tr id="5">
+            <td>Rafael</td>
+            <td>23</td>
+        </tr>
+        <tr id="6">
+            <td>Cristiane</td>
             <td>23</td>
         </tr>
     </table>
