@@ -100,6 +100,20 @@ body {
     float: right;
     align-content: center;
 }
+#table-general {
+    border: solid 5px #003d3b;
+}
+table thead th {
+    background-color: #003d3b;
+    color: aliceblue;
+}
+table tbody tr:nth-child(even) td{
+    background-color: antiquewhite;
+}
+table tr:hover td {
+    background-color: darkgray;
+    cursor: pointer; 
+}
 .footer {
     background-color: #003d3b;
     min-height: 150px;
