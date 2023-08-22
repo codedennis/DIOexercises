@@ -114,6 +114,14 @@ table tr:hover td {
     background-color: darkgray;
     cursor: pointer; 
 }
+form {
+    border: solid #003d3b;
+    margin: 15px;
+    padding: 15px;
+}
+.btn-form {
+    margin: 15px;
+}
 .footer {
     background-color: #003d3b;
     min-height: 150px;
