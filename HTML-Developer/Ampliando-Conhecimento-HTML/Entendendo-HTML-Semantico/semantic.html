@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-brSemantico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!--Essa tag serve para colocar o cabeçalho da página-->
+        <nav>
+            <!--Essa tag nav serve para colocar o conteúdo de navegação-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="tel:+551535629856">Contact</a></li>
+                <!--Essa referência na ancoragem serve para ter um botão clicável que faz ligações para o número na referência-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Essa tag serve para colocar o conteúdo principal da página-->
+        <article>
+            <h1>Descoberta de vida em outro planeta</h1>
+            <p>Artigo publicado em <time pubdate>24/08/2023</time></p>
+            <!--Essa tag serve para declarar a data que o artigo foi publicado, e é muito útil para indexação do site nos motores de buscas-->
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, excepturi! <q><strong>Marte é muito pequena pq nós roubamos um pedaço</strong></q></p> 
+            <!--A tag q serve como um blockquote, porém sem quebrar a linha e adicionando aspas automaticamente-->
+            
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, corrupti Marte é vermelha.</p>
+            <blockquote cite="https://it.wikipedia.org/wiki/Marte_(astronomia)"> <!--Esse atributo cite, serve para colocar uma citação e também ajuda muito na indexação-->
+                Marte é vermelha, pq foi feita pelo McDonald's
+            </blockquote>
+
+            <p>Qual seu prato favorito  ?</p>
+            <article>
+                <!--É possível que um article tenha outro article como filho, desde que seja ainda sobre o mesmo tema, isso faz com que os mecanismos de buscas associem essa hierarquia-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga.</p>
+            </article>
+        </article>
+    </main>
+    <footer>
+        <!--Essa tag serve para colocar o conteúdo do rodapé-->
+        <address><!--Tag para declarar endereços--></address>
+    </footer>
+</body>
+</html>
