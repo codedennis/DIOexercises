@@ -11,3 +11,7 @@ pre {
 pre code {
     color: red;
 }
+pre p {
+    font-style: italic;
+    color: gray;
+}
