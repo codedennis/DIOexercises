@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark e Javascript</title>
+</head>
+<body>
+    <input type="text" id="busca"><br>
+    <p id="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ad ipsa optio asperiores, maxime aut eos voluptatum modi autem ab ducimus culpa et libero minima sequi vel! Fuga dolore reiciendis unde eaque repellat explicabo in repudiandae ratione nulla? Molestiae sint modi veniam quaerat rem tenetur autem at dolore sunt voluptatem!</p>
+    <script>
+        let searchField = document.getElementById('busca')
+        var descriptionObject = document.getElementById('descricao')
+        let textToSearch = descriptionObject.innerHTML;
+
+        function realizaBusca(busca) {
+            const regex = new RegExp(`(${busca})(?!(.(?!<mark))*</mark)+`, 'ig');
+            const ocurrences = textToSearch.match(regex);
+            descriptionObject.innerHTML = textToSearch.replace(regex, `<mark>${busca}</mark>`)
+        } 
+
+        searchField.addEventListener('keyup', (e) => realizaBusca(e.target.value));
+    </script>
+</body>
+</html>
