@@ -6,3 +6,15 @@ h1 {
 h2 {
     color: red;
 }
+
+#Netflix {
+    color: red;
+}
+
+.Streaming {
+    color: lightblue;
+}
+
+[title] {
+    color: darkblue;
+}
