@@ -18,3 +18,24 @@ h2 {
 [title] {
     color: darkblue;
 }
+
+/*Algumas formas de selecionar atributos específicos*/
+
+/*[atributo=value]*/ 
+[title="Spotify"] {
+    color: green;
+}
+
+/*Posso colocar para buscar uma palavra, não precisando ser exato
+usando o ~: [atributo~=value]*/
+
+/*[title|=value] Serve para buscar algum valor que seja seguido de um hífen(-)*/
+
+/*Para pegar somente o começo do valor você deve usar ^ 
+[href^="http://"] */
+
+/*Para pegar somente o final do valor você deve usar $
+[href$="value"]*/
+
+/*Para buscar o valor em qualquer parte use *
+[href*="value"]*/
