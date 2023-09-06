@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        /*Margin: espaçamento por fora dos elementos
+        Um valor: aplica nos 4 lados
+        Dois valores: em cima e em baixo
+        Três valores: em cima, lados e em baixo
+        Quatro valores: cima, direita, baixo, esquerda*/
+        div {
+            width: 300px;
+            height: 300px;
+        }
+
+        #elemento01 {
+            background: orange;
+            margin: 15px 10px 35px 60px;
+        }
+
+        #elemento02 {
+            background: purple;
+            margin-top: 10px;
+            margin-left: 25px;
+            margin-right: 30px;
+        }
+
+        #elemento03 {
+            background: red;
+            margin: auto;
+        }
+        /*A propriedade auto tem como comportamento no margin centralizar o elemento horizontalmente de acordo com as outras especificações*/
+    </style>
+</head>
+<body>
+    <div id="elemento01"></div>
+    <div id="elemento02"></div>
+    <div id="elemento03"></div>
+</body>
+</html>
