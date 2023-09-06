@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensionamento e Espaçamento</title>
+    <style>
+        button {
+            width: initial;
+        }
+        /*Quando quiser aplicar o padrão da propriedade basta colocar (initial)*/
+        p {
+            width: auto;
+            height: 100px;
+        }
+        /*E quando quiser que o valor da seja definido automaticamente em relação as outras propriedades basta colocar (auto)*/
+
+        #div01 {
+            background: lightblue;
+            height: 200px;
+            width: 200px;
+        }
+
+        #div02 {
+            background: lightgreen;
+            height: inherit;
+        }
+        /*A propriedade (inherit) serve para definir as especificações automaticamente de acordo com as esppecificações de outras propriedades*/
+    </style>
+</head>
+<body>
+    <button>Clique Aqui</button>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae, laborum doloremque nesciunt quod eum?</p>
+
+    <div id="div01">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, adipisci nulla! Consectetur minima cupiditate eligendi.
+        <div id="div02">
+            Lorem ipsum dolor
+        </div>
+    </div>
+</body>
+</html>
