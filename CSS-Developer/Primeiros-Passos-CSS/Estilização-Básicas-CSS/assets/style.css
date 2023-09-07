@@ -1,0 +1,8 @@
+body {
+    background: white;
+}
+
+#currentcolor {
+    color: orange;
+    border: 2px solid red;
+}
