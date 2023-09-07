@@ -7,3 +7,12 @@ body {
     border: 2px solid currentColor;
 }
 /*A propriedade currentColor serve para definir uma cor de forma dinâmica*/
+
+#rgb {
+    color: rgb(167, 6, 126)
+}
+
+#rgba {
+    color: rgba(150, 0, 127, .6)
+}
+/*O RGBA serve para definir a transparência da cor*/
