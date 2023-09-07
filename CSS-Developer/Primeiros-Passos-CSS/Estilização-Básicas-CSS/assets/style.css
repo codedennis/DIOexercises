@@ -3,6 +3,7 @@ body {
 }
 
 #currentcolor {
-    color: orange;
-    border: 2px solid red;
+    color: deeppink;
+    border: 2px solid currentColor;
 }
+/*A propriedade currentColor serve para definir uma cor de forma dinâmica*/
