@@ -16,3 +16,11 @@ body {
     color: rgba(150, 0, 127, .6)
 }
 /*O RGBA serve para definir a transparência da cor*/
+
+#hsl {
+    color: #8c8b7b;
+}
+
+#hsla {
+    color: hsla(330, 100%, 50%, .5);
+}
