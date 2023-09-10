@@ -1,0 +1,61 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo-clip {
+    width: 300px;
+    height: 300px;
+    border: dashed red 10px;
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: palevioletred;
+
+    background-color: hsl(34, 53%, 82%);
+    background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+    hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+    hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+    hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+    hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+    hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+    ),
+    repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+    hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+    hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+    hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+    hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+    hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+    );
+    /*Pode ser utilizada imagens, cores, texturas...*/
+}
+
+#clip-padding {
+    background-clip: padding-box;
+}
+
+#clip-border {
+    background-clip: border-box;
+}
+
+#clip-content {
+    background-clip: content-box;
+}
+
+#clip-text {
+    color: transparent;
+    background-clip: text;
+}
+/*Devo colocar a propriedade "color:transparent" para que o efeito consiga ser visualizado*/
+
+/*E também deve ser colocado a propriedade "-webkit-background-clip: text;" para que o efeito aconteça no Google chrome*/
+
+/*----------------DIFERENÇA ENTRE CLIP E ORIGIN-----------------*/
+
+/*Note que o background-origin define a posição da imagem, e o background-clip até onde ela pode se estender.
+
+    O background-origin funciona apenas com imagens, enquanto background-clip trabalha também com cores.
+    O background-origin, quando utilizado sem a propriedade background-repeat: no-repeat, faz a imagem preencher o elemento todo, o que não acontece caso você use o background-clip, onde ele sim controla até onde é preenchido.
+    Há um valor de atributo mutualmente exclusivo do background-clip chamado text, que faz a imagem/cor "se estender" dentro do texto apenas (como no exemplo).
+
+Provavelmente não são só essas as diferenças, só citei algumas que notei. Essas diferenças são mais notáveis quando você utiliza eles em elementos em vez de todo o corpo da página.*/
