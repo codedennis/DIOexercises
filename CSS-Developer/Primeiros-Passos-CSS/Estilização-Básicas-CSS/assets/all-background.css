@@ -1,0 +1,21 @@
+.exemplo-all {
+    width: 300px;
+    height: 300px;
+    border: 10px dashed red;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/*Eu posso usar a propriedade background para definir tudo que eu preciso sem ter q escrever tudo*/
+
+/*Nesta ordem
+background: image / position / size / repeat / attachment / origin / clip / color
+*/
+
+.exemplo-all {
+    background: url(https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg) top center / 200px 200px no-repeat fixed padding-box content-box orange;
+}
+
+/*É necessário colocar uma / após o primeiro valor*/
