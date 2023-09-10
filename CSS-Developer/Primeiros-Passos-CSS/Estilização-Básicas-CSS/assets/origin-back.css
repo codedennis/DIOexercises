@@ -1,0 +1,27 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo-ori {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg);
+    background-size: 100% 100%;
+    border: dashed red 10px;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+#ori-padding {
+    background-origin: padding-box;
+}
+
+#ori-border {
+    background-origin: border-box;
+}
+
+#ori-content {
+    background-origin: content-box;
+}
+
+/*Essas propriedades servem para definir se a nossa imagem irá cobrir a área do padding, da borda ou somente do elemento*/
