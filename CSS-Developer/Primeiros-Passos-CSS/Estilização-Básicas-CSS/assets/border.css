@@ -7,5 +7,25 @@ body {
     width: 200px;
     height: 200px;
     border-style: solid;
-    border-width: 10px 15px;
+    border-width: 10px 10px;
+    border-color: purple;
+}
+
+/*Propriedades do border-style: dashed, dotted, double, groove, ridge, inset, outset*/
+
+#bordas-teste1 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border-bottom-style: double;
+    border-bottom-width: 15px;
+    border-color: purple;
+}
+
+#bordas-teste2 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border: solid purple 10px;
+    border-radius: 10px;
 }
