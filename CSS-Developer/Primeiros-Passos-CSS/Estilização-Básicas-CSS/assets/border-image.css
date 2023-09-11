@@ -22,3 +22,14 @@
     border-image-slice: 10;
     border-image-outset: 15px 0px;
 }
+
+#bordaimgall {
+    border-image: url(https://www.designi.com.br/images/preview/10256644.jpg) 421 / 15px / 1 0 round;
+}
+
+/*Forma resumida das propriedades border-image:
+
+border-image: (border-image-source) (border-image-slice) / (border-image-width) / (border-image-outset) (border-image-repeat)
+*/
+
+/*Lembre-se de colocar a / depois das propriedades certas para não haver falha*/
