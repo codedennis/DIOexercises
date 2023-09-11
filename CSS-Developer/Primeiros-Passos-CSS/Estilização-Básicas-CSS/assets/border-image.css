@@ -11,6 +11,8 @@
 
 #bordaimg01 {
     border-image-source: url(https://www.designi.com.br/images/preview/10256644.jpg);
+    border-image-repeat: repeat;
+    border-image-slice: 421 fill;
 }
 
 #bordaimg02 {
