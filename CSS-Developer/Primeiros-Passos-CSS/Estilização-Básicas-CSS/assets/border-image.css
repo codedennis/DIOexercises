@@ -20,4 +20,5 @@
     border: 10px solid;
     border-image-source: linear-gradient(red, rgb(255, 0, 170));
     border-image-slice: 10;
+    border-image-outset: 15px 0px;
 }
