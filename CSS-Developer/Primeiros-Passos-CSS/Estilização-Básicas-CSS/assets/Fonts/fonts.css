@@ -1,0 +1,15 @@
+* {
+    font-family: Nunito, sans-serif;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&family=Poppins:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+}
+/*especifica uma fonte customizada com a qual exibe o texto; a fonte pode ser carregada de um servidor remoto ou de uma fonte instalada localmente no computador do usuário.*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&family=Poppins:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*@import é usado para importar regras de estilo de outras folhas de estilo.*/
+
