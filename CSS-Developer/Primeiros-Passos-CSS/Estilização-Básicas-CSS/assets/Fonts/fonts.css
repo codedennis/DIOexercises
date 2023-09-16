@@ -13,3 +13,13 @@
 
 /*@import é usado para importar regras de estilo de outras folhas de estilo.*/
 
+#fonts-all {
+    font-size: large;
+    font-style: italic;
+    font-weight: 800;
+    font-variant: initial;
+    font-stretch: condensed;
+    line-height: normal;
+}
+
+/*font: size family, fallback*/
