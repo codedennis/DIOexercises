@@ -7,3 +7,11 @@
 }
 
 /*text-ident serve para poder colocar espaçamento no começo dos textos*/
+
+#letter-spacing {
+    letter-spacing: 4px;
+}
+
+#word-spacing {
+    word-spacing: 8px;
+}
