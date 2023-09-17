@@ -1,3 +1,9 @@
 #link-decoration {
     text-decoration: none;
 }
+
+#text-ident {
+    text-indent: 30px;
+}
+
+/*text-ident serve para poder colocar espaçamento no começo dos textos*/
