@@ -2,4 +2,11 @@ p {
     text-transform: capitalize;
 }
 
-/*Transforma todos os caracteres iniciais ficam em caixa-alta*/
+/*Transforma todos os caracteres iniciais em caixa-alta*/
+
+/*Propriedades:
+
+uppercase: tranforma tudo em maiúsculo.
+
+lowercase: em minúsculo.
+*/
