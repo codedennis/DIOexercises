@@ -1,0 +1,11 @@
+p {
+    padding: 10px;
+    background-color: lavender;
+    text-align: center;
+}
+
+.text-align {
+    width: 370px;
+    border: 1px solid black;
+    text-align: justify;
+}
