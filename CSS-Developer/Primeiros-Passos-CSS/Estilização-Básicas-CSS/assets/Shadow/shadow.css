@@ -1,0 +1,6 @@
+#shadow-img {
+    width: 500px;
+    filter: drop-shadow(10px 10px 5px gray);
+}
+
+/*Essa propriedade filter: drop-shadow é muito interessante para aplicar sombras em imagens png, não em suas bordas mas em seu conteúdo dentro*/
