@@ -15,3 +15,11 @@
 #word-spacing {
     word-spacing: 8px;
 }
+
+#break-word {
+    word-wrap: break-word;
+}
+
+#text-overflow {
+    text-overflow: ellipsis;
+}
