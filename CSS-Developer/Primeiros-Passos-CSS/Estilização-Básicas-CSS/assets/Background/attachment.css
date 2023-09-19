@@ -30,5 +30,6 @@ p {
 }
 
 #attachment-local {
+    background-size: cover;
     background-attachment: local;
 }
