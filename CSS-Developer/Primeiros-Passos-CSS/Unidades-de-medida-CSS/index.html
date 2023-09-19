@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Testando Unidades de Medida</title>
-</head>
-<body>
-    <h1>Porcentagem</h1>
-    <p>Pixel vs Porcentagem</p>
+  </head>
+  <style>
+    .sobre-em {
+      padding: 0;
+    }
 
-    <div class="exemplo-pixel">
-        width: 300px
-    </div>
+    .sobre-em p {
+      margin: 0;
+    }
 
-    <div class="exemplo-porcentagem">
-        width: 50%
-    </div>
+    .em-01 {
+      background-color: yellow;
+    }
 
-    <br><br><br><br>
+    .em-02 {
+      background-color: palevioletred;
+    }
 
-    <p>Elemento pai possui 500px de largura e um font-size 40px.</p>
-    <div id="elemento-pai">
-        <div class="exemplo-pixel">
-            width:300px
+    .em-03 {
+      background-color: aquamarine;
+    }
+  </style>
+  <body>
+    <section>
+      <h1>Porcentagem</h1>
+      <p>Pixel vs Porcentagem</p>
+
+      <div class="exemplo-pixel">width: 300px</div>
+
+      <div class="exemplo-porcentagem">width: 50%</div>
+
+      <br /><br /><br /><br />
+
+      <p>Elemento pai possui 500px de largura e um font-size 40px.</p>
+      <div id="elemento-pai">
+        <div class="exemplo-pixel">width:300px</div>
+        <div class="exemplo-porcentagem">width: 50%</div>
+      </div>
+    </section>
+
+    <br /><br />
+    <hr />
+    <br />
+
+    <section class="sobre-em">
+      <h1>Unidade de medida: em</h1>
+
+      <p style="font-size: 1em">font-size: 1em = 16px;</p>
+      <p style="font-size: 2em">font-size: 2em = 32px;</p>
+      <p style="font-size: 3em">font-size: 3em = 48px;</p>
+
+      <hr />
+      <br />
+
+      <div class="em-01" style="font-size: 20px">
+        font-size: 20px;
+        <div class="em-02" style="font-size: 2em">
+          font-size 2em = 40px
+          <div class="em-03" style="font-size: 2em">font-size: 2em = 80px;</div>
         </div>
-        <div class="exemplo-porcentagem">
-            width: 50%
-        </div>
-    </div>
+      </div>
 
-</body>
+      <hr />
+      <br />
+
+      <div class="em-02" style="font-size: 30px; width: 10em">
+        font-size: 30px; <br />
+        width: 10em = 300px
+      </div>
+    </section>
+    <br /><br />
+    <hr />
+    <br />
+  </body>
 </html>
