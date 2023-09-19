@@ -5,28 +5,23 @@ header {
 }
 
 #logo-img {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #banner h1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #banner p {
-    display: flex;
-    justify-content: center;
-}
-
-#banner button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #tech-img {
-    width: 100%;
-    height: 363px;
+  width: 100%;
+  height: 363px;
   background-attachment: local;
   background-image: url(../images/woman-code.png);
 }
