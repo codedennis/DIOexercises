@@ -6,6 +6,6 @@ body {
     background-color: palevioletred;
 }
 
-span {
+.span-block {
     display: block;
 }
