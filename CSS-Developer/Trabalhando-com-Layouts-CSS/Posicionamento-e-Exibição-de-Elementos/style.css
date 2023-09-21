@@ -1,0 +1,11 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo-01 {
+    background-color: palevioletred;
+}
+
+span {
+    display: block;
+}
