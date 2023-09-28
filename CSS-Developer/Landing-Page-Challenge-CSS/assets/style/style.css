@@ -1,22 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito:wght@200;300;400;500;600;700;900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: Raleway, sans-serif;
+}
+
 header {
-  height: 605px;
+  width: 100%;
   background-image: url(../images/banner.png);
   color: linear-gradient(#000000, #31a8dd);
-}
 
-#logo-img {
-  display: flex;
-  justify-content: center;
-}
-
-#banner h1 {
-  display: flex;
-  justify-content: center;
-}
-
-#banner p {
-  display: flex;
-  justify-content: center;
 }
 
 #tech-img {
