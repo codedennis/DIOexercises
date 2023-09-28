@@ -4,11 +4,10 @@ body {
   font-family: Raleway, sans-serif;
 }
 
-header {
+#banner {
   width: 100%;
+  height: 604px;
   background-image: url(../images/banner.png);
-  color: linear-gradient(#000000, #31a8dd);
-
 }
 
 #tech-img {
