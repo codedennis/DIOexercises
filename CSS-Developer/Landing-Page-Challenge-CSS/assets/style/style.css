@@ -53,6 +53,11 @@ section {
   margin: 100px auto;
 }
 
+.course-content {
+  width: 800px;
+  text-align: center;
+}
+
 #tech-img {
   width: 100%;
   height: 363px;
